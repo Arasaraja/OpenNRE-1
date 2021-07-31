@@ -50,7 +50,7 @@ parser.add_argument('--lr', default=2e-5, type=float,
         help='Learning rate')
 parser.add_argument('--max_length', default=128, type=int,
         help='Maximum sentence length')
-parser.add_argument('--max_epoch', default=3, type=int,
+parser.add_argument('--max_epoch', default=1, type=int,
         help='Max number of training epochs')
 
 # Seed
